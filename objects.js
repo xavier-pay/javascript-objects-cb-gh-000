@@ -8,7 +8,7 @@ updatePlaylist(playlist, artistName, songTitle){
   playlist['slowdive'] = 'Alison'
   playlist['My Bloody Valentine'] = 'Sometimes'
 
-  playlist.assign(playlist, artistName, songTitle)
+  return playlist.assign(playlist, artistName, songTitle)
 }
 
 updatePlaylist(playlist, 'Phil Ochs' ,"Here's to the State of Mississippi")
