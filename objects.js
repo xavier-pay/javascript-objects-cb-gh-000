@@ -1,6 +1,6 @@
 var playlist = {
-  playlist['slowdive'] = 'Alison'
-  playlist['My Bloody Valentine'] = 'Sometimes'
+  slowdive = 'Alison',
+  My Bloody Valentine = 'Sometimes'
 
 }
 
