@@ -1,13 +1,11 @@
 var playlist = {
-arafat: '202'
+  playlist['slowdive'] = 'Alison'
+  playlist['My Bloody Valentine'] = 'Sometimes'
 
 }
 
 // Access Object
 updatePlaylist(playlist, artistName, songTitle){
-  playlist['slowdive'] = 'Alison'
-  playlist['My Bloody Valentine'] = 'Sometimes'
-
   return playlist.assign(playlist, artistName, songTitle)
 }
 
