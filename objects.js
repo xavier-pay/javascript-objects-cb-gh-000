@@ -5,7 +5,7 @@ var playlist = {
 }
 
 // Access Object
-updatePlaylist(playlist, artistName, songTitle){
+/*updatePlaylist(playlist, artistName, songTitle){
   return playlist.assign(playlist, artistName, songTitle)
 }
 
